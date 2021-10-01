@@ -1,13 +1,13 @@
 import React from "react";
+// import AccessTimeIcon from '@mui/icons-material/AccessTime';
 
 function DetailsBox() {
     return (
         <div className="details-box font-white">
-            <h1>Wipawan & Teerawat</h1>
+            <h1 className="hand-write">Wipawan & Teerawat</h1>
             <p>We’re getting marry</p>
             <div className="date-location-box">
-              <p>9.09 AM</p>
-              <p>492 M.2 Muangphan Phan, Chiangrai</p>
+              <span>9.09 AM 492 M.2 Muangphan Phan, Chiangrai</span>
             </div>
         </div>);
 }
